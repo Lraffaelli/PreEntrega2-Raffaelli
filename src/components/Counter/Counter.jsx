@@ -1,5 +1,5 @@
-import {useCounter} from '../customHooks/useCounter'
-import {CounterStyled} from '../StyledComponent/CounterStyled'
+import {useCounter} from '../../customHooks/useCounter'
+import {CounterStyled} from './CounterStyled'
 
 const Counter = ({stock}) => {
     const{count, addCounter,subCounter}=useCounter(1,stock)

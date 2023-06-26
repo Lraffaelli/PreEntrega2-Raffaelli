@@ -1,4 +1,4 @@
-import { Cart } from '../StyledComponent/CartWidget'
+import { Cart } from './CartWidget'
 import CartIcon from '../cart.png'
 
 const CartWidget = () => {

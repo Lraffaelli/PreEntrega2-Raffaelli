@@ -6,7 +6,7 @@ export const HeaderStyled= styled.header`
  align-items: center;
  height: 100px;
  width: 100%;
- background-color: #eef0f2;
+ background-color: #8e9aaf;
 
  h1{
     font-family: 'Lato', sans-serif;

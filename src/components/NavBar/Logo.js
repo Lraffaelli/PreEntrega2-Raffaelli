@@ -14,6 +14,9 @@ img{
 .logo{
     margin:auto 0;
     text-decoration: none;
+    h1{
+        color: #fff;
+    }
     
 }
 `;

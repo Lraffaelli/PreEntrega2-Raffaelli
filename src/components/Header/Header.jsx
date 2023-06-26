@@ -1,5 +1,5 @@
-import { HeaderStyled } from "../StyledComponent/Header"
-import NavBar from "./NavBar"
+import { HeaderStyled } from "./Header"
+import NavBar from "../NavBar"
 
 const Header = () => {
   return (

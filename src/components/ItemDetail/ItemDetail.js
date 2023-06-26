@@ -3,19 +3,26 @@ import styled from "styled-components";
 export const ItemDetailStyled = styled.div`
 
 display: flex;
-flex-direction: column;
-justify-content: center;
+flex-direction: row;
+justify-content: space-around;
 align-items: center;
-width: 700px;
+width: 900px;
 padding: 20px;
 
 border-radius: 10px;
 box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
 
-img{
-    width: 100px;
+.img-detail{    
+   
+    width: 50%;
+    img{
+        width: 100%;
+    }
 }
-h2{
+
+.info-detail{
+    width: 400px;
+    h2{
     color: #666;
 }
 span{
@@ -28,8 +35,11 @@ strong{
     margin-top: 10px;
 }
 
-p{
-    width: 80%;
+.price-detail{
+   display:flex ;
+   flex-direction:row;
 }
+}
+
 
 `;
