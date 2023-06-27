@@ -1,5 +1,5 @@
-import { NavBarStyled } from "../StyledComponent/NavBar"
-import CartWidget from "./CartWidget"
+import { NavBarStyled } from "./NavBarStyled"
+import CartWidget from "../CartWidget/CartWidget"
 import LogoBox from "./LogoBox"
 
 import Nav from "./Nav"

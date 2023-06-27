@@ -1,5 +1,5 @@
-import Item from "./Item"
-import{ItemListStyled} from '../StyledComponent/ItemListStyled'
+import Item from "../Item/Item"
+import{ItemListStyled} from './ItemListStyled'
 const ItemList = ({productos}) => {
   
   return (

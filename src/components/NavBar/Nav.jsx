@@ -1,5 +1,5 @@
-import { NavStyled } from "../StyledComponent/Nav"
-import{StyleNavLink} from "../StyledComponent/StyledNavLink"
+import { NavStyled } from "./NavStyled"
+import{StyleNavLink} from "./StyledNavLink"
 
 const Nav = () => {
   return (

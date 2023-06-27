@@ -1,5 +1,5 @@
-import {ItemDetailStyled} from'../StyledComponent/ItemDetail'
-import Counter from './Counter'
+import {ItemDetailStyled} from'./ItemDetailStyled'
+import Counter from '../Counter/Counter'
 
 const ItemDetail = ({title,image, price,stock, description}) => {
   console.log({title})

@@ -1,6 +1,6 @@
 
-import { LogoStyled } from '../StyledComponent/Logo'
-import Logotipo from '../logo.png'
+import { LogoStyled } from './Logo'
+import Logotipo from '../../logo.png'
 import { Link } from 'react-router-dom'
 
 const LogoBox = () => {

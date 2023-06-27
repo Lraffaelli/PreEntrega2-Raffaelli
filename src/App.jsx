@@ -1,6 +1,6 @@
-import Header from "./components/Header";
-import ItemListContainer from "./components/ItemListContainer";
-import ItemDetailContainer from "./components/ItemDetailContainer";
+import Header from "./components/Header/Header";
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
+import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer";
 import { BrowserRouter,Routes,Route } from "react-router-dom";
 
 function App() {

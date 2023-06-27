@@ -1,5 +1,5 @@
 import {ItemStyled} from'./ItemStyled'
-import {BtnDetailStyled} from'../../StyledComponent/BtnDetailStyled'
+import {BtnDetailStyled} from'./BtnDetailStyled'
 
 const Item = ({producto}) => {
   
